@@ -182,11 +182,14 @@ ul li:hover{
 .selection3:hover{
     cursor: pointer;
 }
-.doc-symboles{
+.content2{
     position: relative;
     top: 880px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(192, 19, 19);
+    color: #00b39b;
+    font-size: 26px;
+    font-weight: 300;
+    
 }
