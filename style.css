@@ -13,11 +13,14 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    overflow-x: hidden;
+    height: 100%;
 }
 .container{
     position: relative;
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 .navbar{
     background-color: white;
@@ -79,12 +82,11 @@ ul li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 4.500px 80px 4.5px;
+    margin: 65px 4.500px 60px 4.5px;
     padding: 180px 20px;
     height: 310px;
     width: 975px;
     position: absolute;
-        top: calc(10%); 
         left: 0;
         width: 100%;
         
@@ -99,7 +101,7 @@ ul li:hover{
 .paragraph{
     display: flex;
     justify-content:space-around;
-    line-height: 2;
+    line-height: 1.7;
 }
 .paragraph p {
     color: #747474;
@@ -111,7 +113,7 @@ ul li:hover{
 .cards {
     padding: 10px;
     position: relative;
-    margin-top: 500px ; 
+    top: 480px ; 
     margin-bottom: 40px;
     display: flex;
     gap: 20px;
@@ -183,13 +185,26 @@ ul li:hover{
     cursor: pointer;
 }
 .content2{
-    position: relative;
-    top: 880px;
+    position: absolute;
+        left: 0%;
+        top: 700px;     
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+.content2 h1{
     color: #00b39b;
     font-size: 26px;
-    font-weight: 300;
-    
+    font-weight: 300; 
+    padding-left: 26px;
 }
+.assets{
+padding: 5px;
+
+}
+.logos{
+height: 20px;
+width: 125px;
+}
+
