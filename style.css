@@ -17,10 +17,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* margin-left: 50%;
-  margin-right: 50%; */
   height: 100vh;
 }
 .navbar {
@@ -225,7 +222,6 @@ ul li:hover {
   align-items: baseline;
   background-color: #e5faf8;
   width: 100%;
-  
 }
 .left3 {
   position: relative;
@@ -236,24 +232,21 @@ ul li:hover {
   font-size: 34px;
   font-weight: 300;
   color: #00b39b;
-
 }
 .left3 p {
   font-size: 14px;
   font-weight: 400;
   color: rgb(116, 116, 116);
   margin: 23px 0px;
-
 }
 .left3 img {
   position: absolute;
   height: 355px;
   width: 390px;
   top: 101%;
-  right:10%;
-  clip: rect(0px, 400px,247px, 0px);
+  right: 10%;
+  clip: rect(0px, 400px, 247px, 0px);
   zoom: 120%;
-
 }
 .card1 {
   height: 225px;
@@ -276,14 +269,12 @@ ul li:hover {
   font-weight: 300;
   color: #00b39b;
   text-align: center;
-
 }
 .card1 p {
   font-size: 13px;
   font-weight: 400;
   color: rgb(116, 116, 116);
   text-align: center;
-
 }
 .fourcards {
   display: flex;
@@ -314,7 +305,6 @@ ul li:hover {
   margin-bottom: 10px;
   width: 400px;
   text-align: center;
-
 }
 .content4 p {
   font-size: 14px;
@@ -324,7 +314,7 @@ ul li:hover {
   text-align: center;
 }
 
-.content5{
+.content5 {
   position: relative;
   top: 35%;
   display: flex;
@@ -346,28 +336,28 @@ ul li:hover {
   border-radius: 4px;
   padding: 3px;
 }
-.div1:hover{
+.div1:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
 .pic_1 {
   height: 270px;
-  width:309px ;
+  width: 309px;
   border-radius: 4px;
 }
-.a1{
-display: flex;
-justify-content: space-between;
-padding: 20px;
+.a1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.a1 a{
+.a1 a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   color: #747474;
 }
-.a1 button{
+.a1 button {
   color: white;
   background: rgb(61, 131, 223);
   border-radius: 4px;
@@ -376,7 +366,7 @@ padding: 20px;
   font-weight: 700;
   padding: 10px 15px;
 }
-.a1 button:hover{
+.a1 button:hover {
   cursor: pointer;
   background-color: #2166c0;
 }
@@ -386,7 +376,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div2:hover{
+.div2:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -396,7 +386,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div3:hover{
+.div3:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -405,7 +395,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div4:hover{
+.div4:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -414,7 +404,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div5:hover{
+.div5:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -423,7 +413,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div6:hover{
+.div6:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -432,7 +422,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div7:hover{
+.div7:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -441,7 +431,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div8:hover{
+.div8:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -450,7 +440,7 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div9:hover{
+.div9:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
@@ -459,24 +449,24 @@ padding: 20px;
   border-radius: 4px;
   padding: 3px;
 }
-.div10:hover{
+.div10:hover {
   cursor: pointer;
   box-shadow: 14px 8px 30px 14px rgba(87, 82, 82, 0.315);
 }
-.content6{
+.content6 {
   position: relative;
   top: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.content6 p{
+.content6 p {
   font-size: 30px;
   font-weight: 300;
   color: rgb(51, 51, 51);
   margin-bottom: 23px;
 }
-#btn2{
+#btn2 {
   color: white;
   background: rgb(61, 131, 223);
   border-radius: 4px;
@@ -485,32 +475,32 @@ padding: 20px;
   font-weight: 700;
   padding: 14px 18px;
 }
-#btn2:hover{
+#btn2:hover {
   cursor: pointer;
   background-color: #2166c0;
 }
 
-footer{
+footer {
   position: relative;
   top: 45%;
   text-align: center;
   height: 55px;
   width: 975px;
-  padding: 16px 20px ;
-  margin: 10px 212px ;
+  padding: 16px 20px;
+  margin: 10px 212px;
   line-height: 20px;
-  box-shadow: 0px -8px 20px -8px rgba(0,0,0,0.1);
+  box-shadow: 0px -8px 20px -8px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
-footer>p>a{
+footer > p > a {
   text-decoration: none;
   color: rgb(61, 131, 223);
 }
-footer>p>a:hover{
+footer > p > a:hover {
   cursor: pointer;
-  text-decoration:underline rgb(61, 131, 223);
+  text-decoration: underline rgb(61, 131, 223);
 }
-footer p{
+footer p {
   font-size: 12px;
   font-weight: 400;
   color: rgb(171, 171, 171);
